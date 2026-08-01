@@ -1,6 +1,8 @@
 # CJK Radicals
 
-*CJK Radicals* provides the sources for special-purpose fonts that include the glyphs for the [CJK Radicals Supplement](https://www.unicode.org/charts/PDF/U2E80.pdf) (U+2E80 through U+2E99 and U+2E9B through U+2EF3) and [Kangxi Radicals](https://www.unicode.org/charts/PDF/U2F00.pdf) (U+2F00 through U+2FD5) blocks in their entirety, along with the glyphs for U+9F21 鼡, U+31DE5 𱷥 (⿱立兆), and U+322C4 𲋄 (⿻𠘨二). Executing the build scripts produce both name-keyed OpenType/CFF and TrueType versions of the fonts. The glyphs are derived from [*Source Han Serif*](https://github.com/adobe-fonts/source-han-serif/) for the Regular weight, and from [*Source Han Sans*](https://github.com/adobe-fonts/source-han-sans/) for the Light weight.
+The *CJK Radicals* project provides the sources for building special-purpose fonts that include the glyphs for the [CJK Radicals Supplement](https://www.unicode.org/charts/PDF/U2E80.pdf) (U+2E80 through U+2E99 and U+2E9B through U+2EF3) and [Kangxi Radicals](https://www.unicode.org/charts/PDF/U2F00.pdf) (U+2F00 through U+2FD5) blocks in their entirety, along with the glyphs for U+9F21 鼡, U+31DE5 𱷥 (⿱立兆), and U+322C4 𲋄 (⿻𠘨二) that also serve as non-Chinese simplified radicals per the UCD’s [*CJKRadicals.txt*](https://www.unicode.org/Public/UCD/latest/ucd/CJKRadicals.txt) data file. Executing the build script produces both name-keyed OpenType/CFF and TrueType versions of the fonts. Ready-to-use fonts can also be downloaded from the [latest release](releases/latest).
+
+The glyphs for the fonts are derived from [*Source Han Serif*](https://github.com/adobe-fonts/source-han-serif/) for the Regular weight, and from [*Source Han Sans*](https://github.com/adobe-fonts/source-han-sans/) for the Light weight.
 
 ## Building the fonts from source
 
