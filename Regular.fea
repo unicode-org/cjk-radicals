@@ -3,7 +3,7 @@ languagesystem latn dflt;
 languagesystem hani dflt;
 
 table head {
-  FontRevision 3.000;
+  FontRevision 3.001;
 } head;
 
 table hhea {
